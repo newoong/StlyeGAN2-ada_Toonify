@@ -1,2 +1,2 @@
-# StlyeGAN2-ada_Toonify
+# StyleGAN2-ada_Toonify
 My graduate_project with StyleGAN2 &amp; Toonify
