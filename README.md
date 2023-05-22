@@ -13,14 +13,24 @@ Toonify github : https://github.com/justinpinkney/toonify
 
 - mapping
 
+```
 !python projector_custom.py --outdir=./out/myungsoo --target=./realign1024x1024/00000/myungsoo.png --network=./pretrained/ffhq.pkl --save-video=False --verbose=True --extend=True --num-steps=5000
+```
 
 #click option
+
 #('--network', 'network_pkl', help='Network pickle filename', required=True)
+
 #('--target', 'target_fname', help='Target image file to project to', required=True, metavar='FILE')
+
 #('--num-steps',              help='Number of optimization steps', type=int, default=1000, show_default=True)
+
 #('--seed',                   help='Random seed', type=int, default=303, show_default=True)
+
 #('--save-video',             help='Save an mp4 video of optimization progress', type=bool, default=True, show_default=True)
+
 #('--outdir',                 help='Where to save the output images', required=True, metavar='DIR')
+
 #('--verbose',                help='verbose', type=bool, default=True)
+
 #('--extend',                help='Want to project with extended w(18vectors)', type=bool, default=False))
