@@ -40,3 +40,7 @@ Toonify github : https://github.com/justinpinkney/toonify
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/d0ce6586-240e-484a-bcc1-904c7f9769d3" width="30%" height="30%">
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/f2db6c9e-f571-447f-ae41-95106f7a6143" width="30%" height="30%">
 
+  - landmark & align (same with FFHQ preprocessing)
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="30%" height="30%">
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/c6c7b8ef-2b58-4ddb-8c1f-c623c67687e1" width="30%" height="30%">
+
