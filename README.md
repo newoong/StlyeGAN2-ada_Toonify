@@ -37,6 +37,6 @@ Toonify github : https://github.com/justinpinkney/toonify
 
 - mapping preprocessing
   - Crop & Resize (1024 x 1024)
-  - ![target_only_crop](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/d0ce6586-240e-484a-bcc1-904c7f9769d3)
-  - ![proj_only_crop](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/f2db6c9e-f571-447f-ae41-95106f7a6143)
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/d0ce6586-240e-484a-bcc1-904c7f9769d3" width="30%" height="30%">
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/f2db6c9e-f571-447f-ae41-95106f7a6143" width="30%" height="30%">
 
