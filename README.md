@@ -2,7 +2,9 @@
 My graduation project with StyleGAN2-ada & Toonify
 
 StyleGAN2-ada paper : https://arxiv.org/abs/2006.06676
+
 StyleGAN2-ada github : https://github.com/NVlabs/stylegan2-ada-pytorch
+
 Toonify github : https://github.com/justinpinkney/toonify
 
 
