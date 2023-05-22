@@ -11,7 +11,7 @@ Toonify github : https://github.com/justinpinkney/toonify
 ![image](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/93dbcaba-28db-4f30-87b0-baea3a77477b)
 
 
-- mapping
+- mapping own data
 
 ```
 !python projector_custom.py --outdir=./out/myungsoo --target=./realign1024x1024/00000/myungsoo.png --network=./pretrained/ffhq.pkl --save-video=False --verbose=True --extend=True --num-steps=5000
@@ -34,3 +34,9 @@ Toonify github : https://github.com/justinpinkney/toonify
 #('--verbose',                help='verbose', type=bool, default=True)
 
 #('--extend',                help='Want to project with extended w(18vectors)', type=bool, default=False))
+
+- mapping preprocessing
+  - Crop & Resize (1024 x 1024)
+  - ![target_only_crop](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/d0ce6586-240e-484a-bcc1-904c7f9769d3)
+  - ![proj_only_crop](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/f2db6c9e-f571-447f-ae41-95106f7a6143)
+
