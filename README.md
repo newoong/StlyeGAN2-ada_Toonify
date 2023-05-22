@@ -37,10 +37,20 @@ Toonify github : https://github.com/justinpinkney/toonify
 
 - mapping preprocessing
   - Crop & Resize (1024 x 1024)
-  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/d0ce6586-240e-484a-bcc1-904c7f9769d3" width="30%" height="30%">
-  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/f2db6c9e-f571-447f-ae41-95106f7a6143" width="30%" height="30%">
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="30%" height="30%">
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/839b0381-456a-44df-897f-8fc61db02e49" width="30%" height="30%">
 
   - landmark & align (same with FFHQ preprocessing)
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="30%" height="30%">
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/c6c7b8ef-2b58-4ddb-8c1f-c623c67687e1" width="30%" height="30%">
+
+
+- mapping with W(1,) or W(18,) #projector_custom 'extned' parameter
+  - with W(1,)
+  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/55794cb9-d3c4-4926-82fe-efd07a87846f" width="30%" height="30%">
+  - with W(18,)
+    - epoch 1000
+    - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/0346770e-182e-4896-ab60-d99e5f546847" width="30%" height="30%">
+    - epoch 5000
+    - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="30%" height="30%">
 
