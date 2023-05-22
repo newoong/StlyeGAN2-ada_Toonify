@@ -35,13 +35,14 @@ Toonify github : https://github.com/justinpinkney/toonify
 
 #('--extend',                help='Want to project with extended w(18vectors)', type=bool, default=False))
 
+- Original Image
+- <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="50%" height="50%">
+
 - mapping preprocessing
   - Crop & Resize (1024 x 1024)
-  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="30%" height="30%">
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/839b0381-456a-44df-897f-8fc61db02e49" width="30%" height="30%">
 
   - landmark & align (same with FFHQ preprocessing)
-  - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/dee34ac2-55a7-41ef-b146-fdab48a5e2f8" width="30%" height="30%">
   - <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/c6c7b8ef-2b58-4ddb-8c1f-c623c67687e1" width="30%" height="30%">
 
 
