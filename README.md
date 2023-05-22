@@ -48,7 +48,7 @@ Toonify github : https://github.com/justinpinkney/toonify
   <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/c6c7b8ef-2b58-4ddb-8c1f-c623c67687e1" width="30%" height="30%">
 
 
-- mapping with W(1,) or W(18,) #projector_custom 'extned' parameter
+- mapping with W(1,) or W(18,) #projector_custom 'extend' parameter
   - with W(1,)
   <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/55794cb9-d3c4-4926-82fe-efd07a87846f" width="30%" height="30%">
   
@@ -60,3 +60,8 @@ Toonify github : https://github.com/justinpinkney/toonify
     - epoch 5000
     <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="30%" height="30%">
 
+
+- mapping with W(18,) has a problem
+  - Visual fidelity is higher, but semantic fidelity is lower
+  - W(1,)로 mapping하면 synthesis시 퀄리티가 떨어지지만 mapping결과인 18개의 벡터의 facial semantic이 잘 mapping됨
+  - W(18,)로 mapping하면 synthesis시 퀄리티 있게 나오지만 vecotr의 facial sematic이 감소하여 vector mixing이 잘 안됨   
