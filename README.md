@@ -97,6 +97,7 @@ Toonify github : https://github.com/justinpinkney/toonify
         <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/9e9e67ec-50a3-42bb-a524-11e479d2b1c0" width="40%" height="40%">
         
       - Img2
+    
         <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/20a0a8b8-2418-49a1-ab7c-2ac272e5377b" width="50%" height="50%">
         
         
