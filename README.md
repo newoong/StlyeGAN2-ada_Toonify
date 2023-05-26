@@ -50,8 +50,11 @@ Toonify github : https://github.com/justinpinkney/toonify
 
 - mapping with W(1,) or W(18,) #projector_custom 'extend' parameter
   - with W(1,)
-  <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/55794cb9-d3c4-4926-82fe-efd07a87846f" width="30%" height="30%">
+    - epoch 1000
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/55794cb9-d3c4-4926-82fe-efd07a87846f" width="30%" height="30%">
   
+    - epoch 5000
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/b67f4dfe-6a49-4bdc-b827-7cf98fefec69" width="30%" height="30%">
   
   - with W(18,)
     - epoch 1000
@@ -72,8 +75,7 @@ Toonify github : https://github.com/justinpinkney/toonify
   - Used Image Information
 
     - from random z -> mapped W (very semantic W vectors)
-    <img src = "![image](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/893f8307-137a-448b-bd28-a527edd6a78a)
-" width="50%" height="50%">
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/b1449469-3a12-473e-872a-766dd9f6cc0c" width="50%" height="50%">
 
     - specified images's projected W (less semantic W vectors)
     <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="30%" height="30%">
