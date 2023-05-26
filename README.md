@@ -74,15 +74,31 @@ Toonify github : https://github.com/justinpinkney/toonify
 
   - Used Image Information
 
-    - from random z -> mapped W (very semantic W vectors)
-    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/b1449469-3a12-473e-872a-766dd9f6cc0c" width="50%" height="50%">
+    - Img1 : from random z -> mapped W (very semantic W vectors)
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/b1449469-3a12-473e-872a-766dd9f6cc0c" width="40%" height="40%">
+      ## not real kid 
 
-    - specified images's projected W (less semantic W vectors)
-    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="30%" height="30%">
+    - Img2 : specified images's projected W (less semantic W vectors)
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="40%" height="40%">
 
   - Method
 
     - style mixing : mix W vectors
 
     - blended Network : blend two different style of Generator's layers (architecture of PGGAN)
+      - G1 : FFHQ pre-trained model
+      - G2 : metface pre-trained model
+      - Can blend models from 4x4 layer to 1024x1024 layer & Can hard or soft blending(just switching or not(interpolate))
+
+      - Img1
+        - standard : 32 x 32 resolution layer
+        <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/e4a39dfb-19cf-48d0-befb-dc28b4e05a48" width="40%" height="40%">
+        - standard : 64 x 64 resolution layer
+        <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/9e9e67ec-50a3-42bb-a524-11e479d2b1c0" width="40%" height="40%">
+        
+      - Img2
+        <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/20a0a8b8-2418-49a1-ab7c-2ac272e5377b" width="50%" height="50%">
+        
+        
+        
 
