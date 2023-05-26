@@ -65,3 +65,22 @@ Toonify github : https://github.com/justinpinkney/toonify
   - Visual fidelity is higher, but semantic fidelity is lower
   - W(1,)로 mapping하면 synthesis시 퀄리티가 떨어지지만 mapping결과인 18개의 벡터의 facial semantic이 잘 mapping됨
   - W(18,)로 mapping하면 synthesis시 퀄리티 있게 나오지만 vecotr의 facial sematic이 감소하여 vector mixing이 잘 안됨   
+
+
+- Modify Image
+
+  - Used Image Information
+
+    - from random z -> mapped W (very semantic W vectors)
+    <img src = "![image](https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/893f8307-137a-448b-bd28-a527edd6a78a)
+" width="50%" height="50%">
+
+    - specified images's projected W (less semantic W vectors)
+    <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/da9fc4bb-9819-40a1-826c-36cffda5d4ca" width="30%" height="30%">
+
+  - Method
+
+    - style mixing : mix W vectors
+
+    - blended Network : blend two different style of Generator's layers (architecture of PGGAN)
+
