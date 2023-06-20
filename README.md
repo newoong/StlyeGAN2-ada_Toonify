@@ -100,6 +100,7 @@ Toonify github : https://github.com/justinpinkney/toonify
     
         <img src = "https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/20a0a8b8-2418-49a1-ab7c-2ac272e5377b" width="50%" height="50%">
         
-        
+        <img width="318" alt="image" src="https://github.com/newoong/StyleGAN2-ada_Toonify/assets/94604584/0962d126-80b6-43a3-aca0-06d3138b1a47">
+
         
 
